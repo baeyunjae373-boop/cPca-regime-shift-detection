@@ -32,3 +32,8 @@ Python, numpy, pandas, scikit-learn, matplotlib
 ## 데이터 출처
 
 FRED (Federal Reserve Economic Data) — https://fred.stlouisfed.org
+
+## 설치
+```bash
+pip install -r requirements.txt
+```
