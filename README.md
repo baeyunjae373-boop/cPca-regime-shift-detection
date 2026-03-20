@@ -29,5 +29,6 @@ FRED(Federal Reserve Economic Data) 거시경제 지표 6개
 
 Python, numpy, pandas, scikit-learn, matplotlib
 
+## 데이터 출처
 
-데이터 출처: FRED (Federal Reserve Economic Data) — https://fred.stlouisfed.org
+FRED (Federal Reserve Economic Data) — https://fred.stlouisfed.org
