@@ -25,13 +25,23 @@ FRED(Federal Reserve Economic Data) 거시경제 지표 6개
 - 2022년 4월 코로나 충격 해소 시점 정량 확인
 - 2024년 이후 과거·코로나 시기와도 다른 제3의 경제 구조 전환 탐지
 
+## 데이터
+
+FRED(Federal Reserve Economic Data)에서 다운받은 월별 거시경제 지표 6개를 사용한다.
+
+아래 6개 티커를 [FRED](https://fred.stlouisfed.org)에서 각각 검색해 CSV로 다운받은 뒤,
+노트북 파일과 같은 폴더에 넣으면 된다.
+
+`INDPRO`, `CPIAUCSL`, `RSAFS`, `PCE`, `UNRATE`, `DGS10`
+
+## 설치
+```bash
+pip install -r requirements.txt
+```
+
 ## 기술 스택
 
 Python, numpy, pandas, scikit-learn, matplotlib
-
-## 데이터 출처
-
-FRED (Federal Reserve Economic Data) — https://fred.stlouisfed.org
 
 ## 설치
 ```bash
